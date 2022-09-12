@@ -1,0 +1,134 @@
+@import '../variables/variables.scss';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $mainFont;
+}
+
+#calculator {
+  display: grid;
+  grid-template-areas:
+    'result   result     result  result'
+    'allClear switchSign percent divide'
+    'btn7     btn8       btn9    times'
+    'btn6     btn5       btn4    minus'
+    'btn3     btn2       btn1    plus'
+    'btn0     btn0       dot     equals';
+  width: 60vw;
+  background-color: $grayMedium;
+  font-size: 3rem;
+  gap: 0.3rem;
+
+  #result {
+    grid-area: result;
+    color: $white;
+    background-color: $grayDark;
+    justify-content: flex-end;
+    padding: 4rem 1rem;
+    font-size: 7rem;
+  }
+
+  #allClear {
+    grid-area: allClear;
+  }
+
+  #switchSign {
+    grid-area: switchSign;
+  }
+
+  #percent {
+    grid-area: percent;
+  }
+
+  #divide {
+    grid-area: divide;
+  }
+
+  #btn7 {
+    grid-area: btn7;
+  }
+
+  #btn8 {
+    grid-area: btn8;
+  }
+
+  #btn9 {
+    grid-area: btn9;
+  }
+
+  #times {
+    grid-area: times;
+  }
+
+  #btn4 {
+    grid-area: btn4;
+  }
+
+  #btn5 {
+    grid-area: btn5;
+  }
+
+  #btn6 {
+    grid-area: btn6;
+  }
+
+  #minus {
+    grid-area: minus;
+  }
+
+  #btn1 {
+    grid-area: btn1;
+  }
+
+  #btn2 {
+    grid-area: btn2;
+  }
+
+  #btn3 {
+    grid-area: btn3;
+  }
+
+  #plus {
+    grid-area: plus;
+  }
+
+  #btn0 {
+    grid-area: btn0;
+  }
+
+  #dot {
+    grid-area: dot;
+  }
+
+  #equals {
+    grid-area: equals;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $grayLight;
+    padding: 5rem;
+  }
+
+  .operation {
+    background-color: $orange;
+  }
+}

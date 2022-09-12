@@ -1,5 +1,13 @@
 @import '../variables/variables.scss';
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 10px;
 }
@@ -7,9 +15,6 @@ html {
 body {
   width: 100vw;
   height: 100vh;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +39,6 @@ body {
     grid-area: result;
     color: $white;
     background-color: $grayDark;
-    display: flex;
     justify-content: flex-end;
     padding: 4rem 1rem;
     font-size: 7rem;

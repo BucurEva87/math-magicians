@@ -14,7 +14,7 @@ export default class Calculator extends Component {
         <div id="btn7">7</div>
         <div id="btn8">8</div>
         <div id="btn9">9</div>
-        <div id="times" className="operation">X</div>
+        <div id="times" className="operation">x</div>
         <div id="btn6">6</div>
         <div id="btn5">5</div>
         <div id="btn4">4</div>

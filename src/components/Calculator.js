@@ -5,7 +5,7 @@ import '../styles/Calculator.scss';
 import calculate from '../logic/calculate';
 import buttons from './buttons';
 
-function Calculator() {
+const Calculator = () => {
   const [data, setData] = useState({
     total: null,
     next: null,
@@ -42,6 +42,6 @@ function Calculator() {
       )) }
     </div>
   );
-}
+};
 
 export default Calculator;

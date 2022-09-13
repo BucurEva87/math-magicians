@@ -36,13 +36,13 @@ In order to obtain a local copy of this repository run:
 
 - You can run test suites on this project by running `npm test`
 
-<!-- ## Live Demo -->
+## Live Demo
 
-<!-- [Live Demo Link](https://bucureva87.github.io/cinema/dist/) -->
+[Live Demo Link](https://bucureva87.github.io/marh-magicians/dist/)
 
-<!-- ## Live Preview -->
+## Live Preview
 
-<!-- ![Live Preview](https://i.postimg.cc/cHncpKLv/Screenshot-from-2022-09-07-22-28-09.png) -->
+![Live Preview](https://i.postimg.cc/4370MdNH/Screenshot-from-2022-09-13-18-46-53.png)
 
 ## Authors
 

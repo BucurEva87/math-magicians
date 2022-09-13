@@ -38,7 +38,7 @@ In order to obtain a local copy of this repository run:
 
 ## Live Demo
 
-[Live Demo Link](https://bucureva87.github.io/math-magicians/dist/)
+[Live Demo Link](https://bucureva87.github.io/math-magicians/)
 
 ## Live Preview
 

@@ -1,61 +1,47 @@
-import React, { PureComponent } from 'react';
+import React, { useState, useEffect } from 'react';
 import Display from './Display';
 import Button from './Button';
 import '../styles/Calculator.scss';
 import calculate from '../logic/calculate';
+import buttons from './buttons';
 
-export default class Calculator extends PureComponent {
-  constructor(props) {
-    super(props);
+function Calculator() {
+  const [data, setData] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+  const [display, setDisplay] = useState('0');
 
-    this.state = {
-      total: null,
-      next: null,
-      display: '0',
-    };
+  useEffect(() => {
+    const { total, next } = data;
 
-    this.handleClick = this.handleClick.bind(this);
-  }
+    if (!next && !total) setDisplay('0');
+    else setDisplay(next ?? total);
+  }, [data]);
 
-  handleClick(e) {
+  const handleClick = (e) => {
     const buttonName = e.target.textContent;
 
-    this.setState((prevState) => ({ ...calculate(prevState, buttonName) }), this.displayOnScreen);
-  }
+    setData((prevState) => ({ ...calculate(prevState, buttonName) }));
+  };
 
-  displayOnScreen() {
-    const { total, next } = this.state;
+  return (
+    <div id="calculator">
+      <Display>{display}</Display>
 
-    if (!next && !total) this.setState({ display: '0' });
-    else this.setState({ display: next ?? total });
-  }
-
-  render() {
-    const { display } = this.state;
-
-    return (
-      <div id="calculator">
-        <Display>{display}</Display>
-        <Button id="allClear" handleClick={this.handleClick}>AC</Button>
-        <Button id="switchSign" handleClick={this.handleClick}>+/-</Button>
-        <Button id="percent" handleClick={this.handleClick}>%</Button>
-        <Button id="Buttonide" handleClick={this.handleClick} className="operation">÷</Button>
-        <Button id="btn7" handleClick={this.handleClick}>7</Button>
-        <Button id="btn8" handleClick={this.handleClick}>8</Button>
-        <Button id="btn9" handleClick={this.handleClick}>9</Button>
-        <Button id="times" handleClick={this.handleClick} className="operation">x</Button>
-        <Button id="btn6" handleClick={this.handleClick}>6</Button>
-        <Button id="btn5" handleClick={this.handleClick}>5</Button>
-        <Button id="btn4" handleClick={this.handleClick}>4</Button>
-        <Button id="minus" handleClick={this.handleClick} className="operation">-</Button>
-        <Button id="btn3" handleClick={this.handleClick}>3</Button>
-        <Button id="btn2" handleClick={this.handleClick}>2</Button>
-        <Button id="btn1" handleClick={this.handleClick}>1</Button>
-        <Button id="plus" handleClick={this.handleClick} className="operation">+</Button>
-        <Button id="btn0" handleClick={this.handleClick}>0</Button>
-        <Button id="dot" handleClick={this.handleClick}>.</Button>
-        <Button id="equals" handleClick={this.handleClick} className="operation">=</Button>
-      </div>
-    );
-  }
+      { buttons.map((b) => (
+        <Button
+          key={b.id}
+          id={b.id}
+          handleClick={handleClick}
+          className={b.className ?? ''}
+        >
+          {b.text}
+        </Button>
+      )) }
+    </div>
+  );
 }
+
+export default Calculator;

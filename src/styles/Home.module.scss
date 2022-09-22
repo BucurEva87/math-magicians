@@ -1,0 +1,20 @@
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+p + p {
+  margin-top: 1.4rem;
+}
+
+.container-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}

@@ -1,4 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/986292ec-d96a-4770-9ad9-60598b7ff009/deploy-status)](https://app.netlify.com/sites/glittering-pie-9a3643/deploys)
 
 # Math Magicians
 

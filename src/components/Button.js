@@ -8,7 +8,14 @@ export default class Button extends PureComponent {
     } = this.props;
 
     return (
-      <button type="button" id={id} className={className} onClick={handleClick}>{children}</button>
+      <button
+        type="button"
+        id={id}
+        className={className}
+        onClick={handleClick}
+      >
+        {children}
+      </button>
     );
   }
 }

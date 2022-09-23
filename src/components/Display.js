@@ -5,7 +5,9 @@ const Display = (props) => {
   const { children } = props;
 
   return (
-    <div id="result">{children}</div>
+    <div id="result" data-testid="display">
+      {children}
+    </div>
   );
 };
 

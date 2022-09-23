@@ -30,16 +30,11 @@ const Calculator = () => {
     <div id="calculator">
       <Display>{display}</Display>
 
-      { buttons.map((b) => (
-        <Button
-          key={b.id}
-          id={b.id}
-          handleClick={handleClick}
-          className={b.className ?? ''}
-        >
+      {buttons.map((b) => (
+        <Button key={b.id} id={b.id} handleClick={handleClick} className={b.className ?? ''}>
           {b.text}
         </Button>
-      )) }
+      ))}
     </div>
   );
 };

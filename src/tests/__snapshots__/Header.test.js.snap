@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component matches snapshot 1`] = `
+<header
+  data-testid="header-header"
+>
+  <a
+    data-testid="header-logo"
+    href="/"
+    id="logo"
+  >
+    <span
+      data-testid="header-logo-span"
+    >
+      Math Magicians
+    </span>
+  </a>
+  <nav
+    data-testid="header-nav"
+  >
+    <ul
+      data-testid="header-nav-ul"
+    >
+      <li
+        data-testid="header-li-1"
+      >
+        <a
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        data-testid="header-li-2"
+      >
+        <a
+          className=""
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li
+        data-testid="header-li-3"
+      >
+        <a
+          className=""
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;

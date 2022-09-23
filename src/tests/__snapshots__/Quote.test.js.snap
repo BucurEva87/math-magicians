@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote component matches snapshot 1`] = `
+<section
+  className="container-section"
+  data-testid="quote"
+>
+  <article
+    data-testid="quote-article"
+  >
+    <blockquote
+      data-testid="quote-blockquote"
+    >
+      <p
+        data-testid="quote-p"
+      >
+        <em
+          data-testid="quote-em"
+        >
+          Mathematics is not about numbers, equations, computations or algorithms. It is about understanding.
+        </em>
+      </p>
+      <footer
+        data-testid="quote-footer"
+      >
+        William Paul Thurstone
+      </footer>
+    </blockquote>
+  </article>
+</section>
+`;

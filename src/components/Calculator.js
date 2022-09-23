@@ -27,19 +27,14 @@ const Calculator = () => {
   };
 
   return (
-    <div id="calculator">
+    <div id="calculator" data-testid="calculator">
       <Display>{display}</Display>
 
-      { buttons.map((b) => (
-        <Button
-          key={b.id}
-          id={b.id}
-          handleClick={handleClick}
-          className={b.className ?? ''}
-        >
+      {buttons.map((b) => (
+        <Button key={b.id} id={b.id} handleClick={handleClick} className={b.className ?? ''}>
           {b.text}
         </Button>
-      )) }
+      ))}
     </div>
   );
 };

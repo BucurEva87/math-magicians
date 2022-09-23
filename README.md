@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/986292ec-d96a-4770-9ad9-60598b7ff009/deploy-status)](https://app.netlify.com/sites/glittering-pie-9a3643/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ed7cd00c-cbf1-4df0-8185-2d74f213fc86/deploy-status)](https://app.netlify.com/sites/math-magicians-eva/deploys)
 
 # Math Magicians
 
@@ -37,7 +37,7 @@ In order to obtain a local copy of this repository run:
 
 ## Live Preview
 
-![Live Preview](https://i.postimg.cc/4370MdNH/Screenshot-from-2022-09-13-18-46-53.png)
+![Live Preview](https://i.postimg.cc/qq3GhPxS/Math-Magicians-preview.png)
 
 ## Authors
 

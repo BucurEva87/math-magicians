@@ -1,24 +1,23 @@
+import React from 'react';
 import PropTypes from 'prop-types';
-import React, { PureComponent } from 'react';
 
-export default class Button extends PureComponent {
-  render() {
-    const {
-      id, className, children, handleClick,
-    } = this.props;
+const Button = (props) => {
+  const {
+    id, className, children, handleClick,
+  } = props;
 
-    return (
-      <button
-        type="button"
-        id={id}
-        className={className}
-        onClick={handleClick}
-      >
-        {children}
-      </button>
-    );
-  }
-}
+  return (
+    <button
+      data-testid={id}
+      type="button"
+      id={id}
+      className={className}
+      onClick={handleClick}
+    >
+      {children}
+    </button>
+  );
+};
 
 Button.defaultProps = {
   className: '',

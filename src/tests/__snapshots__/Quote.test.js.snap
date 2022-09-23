@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Quote Component matches SnapShot 1`] = `
+exports[`Quote component matches snapshot 1`] = `
 <section
   className="container-section"
   data-testid="quote"

@@ -10,8 +10,8 @@ beforeEach(() => {
   getByTestId = component.getByTestId;
 });
 
-describe('Quote Component', () => {
-  test('render on screan', () => {
+describe('Quote component', () => {
+  test('render on screen', () => {
     expect(getByTestId('quote')).toBeInTheDocument();
   });
 
@@ -41,11 +41,11 @@ describe('Quote Component', () => {
     );
   });
 
-  test('renders footer element containg the auther', () => {
+  test('renders footer element containg the author', () => {
     expect(getByTestId('quote-footer')).toHaveTextContent('William Paul Thurstone');
   });
 
-  test('matches SnapShot', () => {
+  test('matches snapshot', () => {
     const tree = renderer.create(<Quote />).toJSON();
     expect(tree).toMatchSnapshot();
   });

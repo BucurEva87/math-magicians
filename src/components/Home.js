@@ -3,10 +3,10 @@ import React from 'react';
 import style from '../styles/Home.module.scss';
 
 const Home = () => (
-  <section className={style['container-section']}>
-    <h1>Welcome to our page!</h1>
+  <section className={style['container-section']} data-testid="home-section">
+    <h1 data-testid="home-h1">Welcome to our page!</h1>
 
-    <p>
+    <p data-testid="home-p-first">
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum esse quos voluptate sit
       tenetur aliquam placeat. In voluptas dolorem et voluptatibus aut. Error provident magni
       doloremque suscipit dignissimos iusto incidunt repellendus temporibus tempore, quidem ducimus
@@ -18,7 +18,7 @@ const Home = () => (
       Ipsa, veniam! Officia assumenda facilis ut odit eum eligendi in quod quasi!
     </p>
 
-    <p>
+    <p data-testid="home-p-second">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, eius. Accusamus repellat
       voluptates enim qui autem quidem itaque ad ut veniam, facilis, corrupti commodi atque
       quisquam. Ducimus dolorum asperiores numquam ex ullam dolores, aliquam at esse ut quibusdam

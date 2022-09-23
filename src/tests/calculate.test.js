@@ -31,8 +31,6 @@ describe('Calculate logic methods', () => {
     expect(calculate(obj, '4')).toEqual({ total: null, next: '4' });
   });
 
-  // ÷
-
   test('when equals is pressed and there is a next and an operation returns an object with the result of operation', () => {
     const obj = { total: '13', next: '4', operation: 'x' };
     expect(calculate(obj, '=')).toEqual({ total: '52', next: null, operation: null });

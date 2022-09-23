@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
-// import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer';
 import Button from '../components/Button';
 import buttons from '../components/buttons';
 
@@ -49,13 +49,13 @@ describe('Calculator interface buttons', () => {
     });
   });
 
-  // test('matches snapshot', () => {
-  //   const tree = renderer.create(
-  //     <Button id="btn4" handleClick={() => {}}>
-  //       4
-  //     </Button>,
-  //   );
+  test('matches snapshot', () => {
+    const tree = renderer.create(
+      <Button id="btn4" handleClick={() => {}}>
+        4
+      </Button>,
+    ).toJSON;
 
-  //   expect(tree).toMatchSnapshot();
-  // });
+    expect(tree).toMatchSnapshot();
+  });
 });

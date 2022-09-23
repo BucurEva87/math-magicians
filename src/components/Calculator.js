@@ -27,7 +27,7 @@ const Calculator = () => {
   };
 
   return (
-    <div id="calculator">
+    <div id="calculator" data-testid="calculator">
       <Display>{display}</Display>
 
       {buttons.map((b) => (

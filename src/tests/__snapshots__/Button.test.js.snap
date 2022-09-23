@@ -1,13 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Calculator interface buttons matches snapshot 1`] = `
-<button
-  className=""
-  data-testid="btn4"
-  id="btn4"
-  onClick={[Function]}
-  type="button"
->
-  4
-</button>
-`;
+exports[`Calculator interface buttons matches snapshot 1`] = `[Function]`;

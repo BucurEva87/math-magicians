@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Claculator interface display matches snapshot 1`] = `
+exports[`Calculator interface display matches snapshot 1`] = `
 <div
   data-testid="display"
   id="result"

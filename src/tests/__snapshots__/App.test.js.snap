@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component matches snapshot 1`] = `
+Array [
+  <header
+    data-testid="header-header"
+  >
+    <a
+      data-testid="header-logo"
+      href="/"
+      id="logo"
+    >
+      <span
+        data-testid="header-logo-span"
+      >
+        Math Magicians
+      </span>
+    </a>
+    <nav
+      data-testid="header-nav"
+    >
+      <ul
+        data-testid="header-nav-ul"
+      >
+        <li
+          data-testid="header-li-1"
+        >
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          data-testid="header-li-2"
+        >
+          <a
+            className=""
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li
+          data-testid="header-li-3"
+        >
+          <a
+            className=""
+            href="/quote"
+            onClick={[Function]}
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>,
+  <div
+    data-testid="container"
+    id="container"
+  >
+    <section
+      className="container-section"
+      data-testid="home-section"
+    >
+      <h1
+        data-testid="home-h1"
+      >
+        Welcome to our page!
+      </h1>
+      <p
+        data-testid="home-p-first"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum esse quos voluptate sit tenetur aliquam placeat. In voluptas dolorem et voluptatibus aut. Error provident magni doloremque suscipit dignissimos iusto incidunt repellendus temporibus tempore, quidem ducimus laudantium repudiandae animi tenetur, id odio aliquam! Ipsa, veniam! Officia assumenda facilis ut odit eum eligendi in quod quasi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum esse quos voluptate sit tenetur aliquam placeat. In voluptas dolorem et voluptatibus aut. Error provident magni doloremque suscipit dignissimos iusto incidunt repellendus temporibus tempore, quidem ducimus laudantium repudiandae animi tenetur, id odio aliquam! Ipsa, veniam! Officia assumenda facilis ut odit eum eligendi in quod quasi!
+      </p>
+      <p
+        data-testid="home-p-second"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, eius. Accusamus repellat voluptates enim qui autem quidem itaque ad ut veniam, facilis, corrupti commodi atque quisquam. Ducimus dolorum asperiores numquam ex ullam dolores, aliquam at esse ut quibusdam pariatur possimus consequuntur exercitationem tempore, voluptatibus in laudantium inventore autem quos qui dolorem nam, quis temporibus! Distinctio, dolor officiis excepturi eligendi eos deleniti natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, eius. Accusamus repellat voluptates enim qui autem quidem itaque ad ut veniam, facilis, corrupti commodi atque quisquam. Ducimus dolorum asperiores numquam ex ullam dolores, aliquam at esse ut quibusdam pariatur possimus consequuntur exercitationem tempore, voluptatibus in laudantium inventore autem quos qui dolorem nam, quis temporibus! Distinctio, dolor officiis excepturi eligendi eos deleniti natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, eius. Accusamus repellat voluptates enim qui autem quidem itaque ad ut veniam, facilis, corrupti commodi atque quisquam. Ducimus dolorum asperiores numquam ex ullam dolores, aliquam at esse ut quibusdam pariatur possimus consequuntur exercitationem tempore, voluptatibus in laudantium inventore autem quos qui dolorem nam, quis temporibus! Distinctio, dolor officiis excepturi eligendi eos deleniti natus.
+      </p>
+    </section>
+  </div>,
+]
+`;

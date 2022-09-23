@@ -3,14 +3,14 @@ import '@testing-library/jest-dom';
 import renderer from 'react-test-renderer';
 import Display from '../components/Display';
 
-describe('Claculator interface display', () => {
-  test('is render on the screan', () => {
+describe('Calculator interface display', () => {
+  test('is render on the screen', () => {
     const { getByTestId } = render(<Display>0</Display>);
 
     expect(getByTestId('display')).toBeInTheDocument();
   });
 
-  test('is render on the screan', () => {
+  test('is render on the screen', () => {
     const { getByTestId } = render(<Display>0</Display>);
 
     expect(getByTestId('display')).toHaveTextContent('0');

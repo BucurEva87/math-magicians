@@ -35,13 +35,13 @@ describe('Quote component', () => {
     expect(getByTestId('quote-footer')).toBeInTheDocument();
   });
 
-  test('renders em element containg a quote', () => {
+  test('renders em element containing a quote', () => {
     expect(getByTestId('quote-em')).toHaveTextContent(
       'Mathematics is not about numbers, equations, computations or algorithms. It is about understanding.',
     );
   });
 
-  test('renders footer element containg the author', () => {
+  test('renders footer element containing the author', () => {
     expect(getByTestId('quote-footer')).toHaveTextContent('William Paul Thurstone');
   });
 

@@ -3,16 +3,16 @@ import { NavLink } from 'react-router-dom';
 import '../styles/Header.scss';
 
 const Header = () => (
-  <header>
-    <a id="logo" href="/">
-      <span>Math Magicians</span>
+  <header data-testid="header-header">
+    <a id="logo" href="/" data-testid="header-logo">
+      <span data-testid="header-logo-span">Math Magicians</span>
     </a>
 
-    <nav>
-      <ul>
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/calculator">Calculator</NavLink></li>
-        <li><NavLink to="/quote">Quote</NavLink></li>
+    <nav data-testid="header-nav">
+      <ul data-testid="header-nav-ul">
+        <li data-testid="header-li-1"><NavLink to="/">Home</NavLink></li>
+        <li data-testid="header-li-2"><NavLink to="/calculator">Calculator</NavLink></li>
+        <li data-testid="header-li-3"><NavLink to="/quote">Quote</NavLink></li>
       </ul>
     </nav>
   </header>

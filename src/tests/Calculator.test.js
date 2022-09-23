@@ -138,7 +138,7 @@ describe('Calculator', () => {
 
     fireEvent.click(equals);
 
-    expect(display).toHaveTextContent('Can\'t divide by 0.');
+    expect(display).toHaveTextContent("Can't divide by 0.");
   });
 
   test('pressing divide button correctly divides the two operands', () => {

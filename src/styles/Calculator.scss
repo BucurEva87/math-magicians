@@ -1,25 +1,4 @@
-@import '../variables/variables.scss';
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 10px;
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: $mainFont;
-}
+@import 'index';
 
 #calculator {
   display: grid;
@@ -40,7 +19,6 @@ body {
     color: $white;
     background-color: $grayDark;
     justify-content: flex-end;
-    padding: 4rem 1rem;
     font-size: 7rem;
   }
 
@@ -131,7 +109,7 @@ body {
   #result {
     display: flex;
     align-items: center;
-    padding: 5rem;
+    padding: 4rem;
   }
 
   .operation {

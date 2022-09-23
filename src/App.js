@@ -1,11 +1,15 @@
-import React, { Component } from 'react';
-import Calculator from './components/Calculator';
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from './components/Header';
+import Container from './components/Container';
 
-// eslint-disable-next-line react/prefer-stateless-function
-export default class App extends Component {
-  render() {
-    return (
-      <Calculator />
-    );
-  }
+import './styles/index.scss';
+
+export default function App() {
+  return (
+    <Router>
+      <Header />
+      <Container />
+    </Router>
+  );
 }

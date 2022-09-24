@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ed7cd00c-cbf1-4df0-8185-2d74f213fc86/deploy-status)](https://app.netlify.com/sites/math-magicians-eva/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/72a93c26-248a-4e47-b5ca-68e9be44ca36/deploy-status)](https://app.netlify.com/sites/math-magicians-eva/deploys)
 
 # Math Magicians
 
@@ -46,6 +46,12 @@ In order to obtain a local copy of this repository run:
 - GitHub: [@BucurEva87](https://github.com/BucurEva87)
 - Twitter: [@BucurEva](https://twitter.com/BucurEva)
 - LinkedIn: [Eva-Lavinia Bucur](https://www.linkedin.com/in/eva-lavinia-bucur-89626b1b7)
+
+👤 **Elie Harfouche**
+
+- GitHub: [@X-Elie-X](https://github.com/X-Elie-X)
+- Twitter: [@ElieHarfoucheX](https://twitter.com/ElieHarfoucheX)
+- LinkedIn: [Elie Harfouche](https://www.linkedin.com/in/elie-harfouche-3aaa8818a/)
 
 ## 🤝 Contributing
 
